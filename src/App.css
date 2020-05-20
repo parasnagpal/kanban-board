@@ -52,3 +52,7 @@
 .right-border{
   border-right: 1px black solid;
 }
+
+.fit-height{
+  height: 100%;
+}
