@@ -21,6 +21,9 @@ class Done extends React.Component{
     render(){
         return(
             <React.Fragment>
+                <Row>
+                    <Col className="underline"><h5>Done</h5></Col>
+                </Row>
                 {this.props.data.map((data,index)=>
                   this.todo_card(data,index)
                 )}
